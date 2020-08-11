@@ -13,3 +13,5 @@ test_projgrad_algo2.m - demonstrates the failure
 
 plotregion.m and plot_QuadContour.m are used for plotting the objective function 
 and feasible region
+
+Requires matlab optimization toolbox for quadprog.
