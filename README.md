@@ -3,7 +3,7 @@ Matlab implementation of projected gradient descent
 
 Two versions of projected gradient descent.
 
-One is shown to fail in certain cases (see the doc)
+the first works well (prograd.m), and the second (projgrad_algo2.m) is shown to fail in certain cases (see the doc)
 
 projgrad.m - main algorithm
 test_projgrad.m - demonstrates the algorithm
