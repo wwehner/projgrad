@@ -113,7 +113,8 @@ function x = pg(y,A,b)
 n = length(y);
 H = eye(n);
 x0 = y;
-x = quadprog(H,-y,A,b,[],[],[],[],x0);
+options = optimset('Display','off');
+x = quadprog(H,-y,A,b,[],[],[],[],x0,options);
 
 end
 
